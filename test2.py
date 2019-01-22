@@ -171,7 +171,7 @@ def friends_define(key,p_steamid):
     user_r = requests.get(user_url).json()
     print(user_r)
     
-#heropool(key)
+heropool(key)
 #API_recall(key,account_id)
-#API_recall_2(key,account_id)
-friends_define(key,p_steamid)
+API_recall_2(key,account_id)
+#friends_define(key,p_steamid)
